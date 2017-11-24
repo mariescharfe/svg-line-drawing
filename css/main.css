@@ -10,7 +10,7 @@ h1 {
 
 #narwhal-eye {
   opacity: 1;
-  animation: fadein 3s ease-in;
+  animation: fadein 2s ease-in;
 }
 
 @keyframes fadein {
@@ -71,8 +71,8 @@ svg {
   stroke-dashoffset: 1670px;
 }
 
-#narhwal-body {
-  animation: offset 2s linear forwards;
+#narwhal-body {
+  animation: offset 1s linear forwards;
   stroke-dasharray: 2650px;
   stroke-dashoffset: 2650px;
 }
