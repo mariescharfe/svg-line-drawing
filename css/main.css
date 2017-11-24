@@ -5,6 +5,24 @@ h1 {
   color: white;
   margin: 0;
   z-index: 10;
+  animation: fadein 1s ease-in;
+}
+
+#narwhal-eye {
+  opacity: 1;
+  animation: fadein 3s ease-in;
+}
+
+@keyframes fadein {
+
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+
 }
 
 svg {
